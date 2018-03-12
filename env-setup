@@ -1,0 +1,19 @@
+#Install docker:
+curl -sSL https://get.docker.com/ | sh
+#or
+#apt-get install docker.io -y
+
+#DockerHub account:
+#Provide email address and password then verify newly created account from a link which was send from dockerhub
+
+#Install Ansible:
+
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install ansible -y
+
+Install chef-solo:
+
+wget https://packages.chef.io/files/stable/chef/13.7.16/ubuntu/16.04/chef_13.7.16-1_amd64.deb
+dpkg -i chef_13.7.16-1_amd64.deb -y
